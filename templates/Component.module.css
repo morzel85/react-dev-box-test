@@ -1,9 +1,9 @@
-.Component {
+.Component__ID__ {
+  margin: 10px;
   border: 1px solid #61dafb;
   border-radius: 3px;
-  box-shadow: 0 0 8px 0 #61dafb;
-  margin: 10px;
-  font-size: 12px;
+  box-shadow: 0 0 5px 0 #61dafb;
+  font-size: 11px;
 }
 
 .Name {
@@ -13,7 +13,7 @@
   padding: 2px;
 }
 
-.Timestamps {
+.Content {
   padding: 3px 6px;
   color: #efefef;
 }

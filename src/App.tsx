@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Component from './Component';
+// __COMPONENTS_IMPORTS__
 
 function App() {
   return (
@@ -22,14 +22,8 @@ function App() {
         </a>
       </header>
       <main>
-        
-        <Component />
-        <Component />
-        <Component />
+{/* __COMPONENTS_USAGE__ */}
       </main>
-      <footer>
-
-      </footer>
     </div>
   );
 }
