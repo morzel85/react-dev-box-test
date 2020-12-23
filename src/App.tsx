@@ -5,27 +5,21 @@ import './App.css';
 // __COMPONENTS_IMPORTS__
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <main>
+    return (
+        <div className="App">
+            <header>
+                <img src={logo} className="App-logo" alt="logo" />Bunch of components to test dev box performance...
+                <a className="App-link"
+                   href="https://github.com/morzel85/react-dev-box-test"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                >Repo</a>
+            </header>
+            <main>
 {/* __COMPONENTS_USAGE__ */}
-      </main>
-    </div>
-  );
+            </main>
+        </div>
+    );
 }
 
 export default App;
